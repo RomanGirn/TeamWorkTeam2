@@ -30,7 +30,14 @@ const Body = () => {
           <h2 style={styles.name}>Olexandr Skrypnychuk</h2>
           <p style={styles.position}>Software Developer</p>
         </div>
-      </div>
+          </div>
+      <div style={styles.card}>
+         <img src={"/sofiia-photo.jpg"} alt="Sofiia Kotiuk" style={styles.photo} />
+          <div style={styles.textContainer}>
+            <h2 style={styles.name}>Sofiia Kotiuk</h2>
+            <p style={styles.position}>Business analyst</p>
+          </div>
+          </div>
     </main>
   );
 };
